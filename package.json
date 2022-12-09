@@ -1,0 +1,26 @@
+{
+  "name": "on21_imersao_js_s12_projeto",
+  "version": "1.0.0",
+  "description": "{reprograma} projeto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start":"node ./src/index.js",
+    "debug": "node ./src/index.js",
+    "coverage": "npm run test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maritrombini/on21_imersao_js_S12_projeto.git"
+  },
+  "author": "Mariana Trombini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maritrombini/on21_imersao_js_S12_projeto/issues"
+  },
+  "homepage": "https://github.com/maritrombini/on21_imersao_js_S12_projeto#readme",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
