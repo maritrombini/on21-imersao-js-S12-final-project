@@ -25,7 +25,6 @@ class FoodItem {
   checkItemExpirationDate() {
     const checkExpirationDate = differenceInDays(this.expirationDate)
     if (checkExpirationDate <= 1) {
-      console.log(`${this.name} will expire today!!!`);
       return `\n${this.name} will expire today!!!`
     } else {
       return `\n${this.name} will expire in ${Math.ceil(checkExpirationDate)} days.`
