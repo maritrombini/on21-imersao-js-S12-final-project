@@ -12,7 +12,7 @@ describe("Fridge", () => {
   beforeAll(() => {
     myFridge = new Fridge();
     milk = new FoodItem('farmer milk', new Date(dynamicDate(2)), enumFood.foodCategory.DairyProducts)
-    yogurt = new FoodItem('corpus', new Date(dynamicDate(3)), enumFood.foodCategory.DairyProducts)
+    yogurt = new FoodItem('corpus', new Date(dynamicDate(4)), enumFood.foodCategory.DairyProducts)
   })
   test("Should check if the instance of FoodItem is made correctly", () => {
     const foodItem = new FoodItem();
