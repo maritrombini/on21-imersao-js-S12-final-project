@@ -40,9 +40,9 @@ describe("Fridge", () => {
   });
 
   test("Should return an item expiration date", () => {
-    myFridge.addItems(yogurt)
-    const result = yogurt.checkItemExpirationDate()
-    expect(result).toBe("\ncorpus will expire in 3 days.");
+    myFridge.addItems(milk)
+    const result = milk.checkItemExpirationDate()
+    expect(result).toBe("\nfarmer milk will expire in 2 days.");
   });
 
   test("Should return an item that will expire today", () => {
